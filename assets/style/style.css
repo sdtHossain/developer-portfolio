@@ -115,3 +115,39 @@ h6 {
 .about-right h2 {
     text-transform: uppercase;
 }
+
+/* Service */
+.service-offers {
+    padding-top: 100px;
+}
+.service-offers-title {
+    text-align: center;
+}
+.service-offers-title h2 {
+    margin-bottom: 0;
+}
+.service-offers-title p {
+    margin-bottom: 40px;
+}
+.service-offers .flexbox {
+    justify-content: space-between;
+}
+
+.offer-item {
+    width: 25%;
+    background: #f9f9fd;
+    text-align: center;
+    padding: 30px;
+    margin-right: 20px;
+}
+.offer-item h5 {
+    margin-bottom: 0;
+}
+
+/* footer */
+footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: dimgray;
+}
