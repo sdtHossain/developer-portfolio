@@ -1,6 +1,26 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 30px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 18px;
 }
 
 .container {
@@ -14,6 +34,21 @@ body {
 
 .flexbox {
     display: flex;
+}
+
+.btn {
+    padding: 14px 40px;
+    background-image: linear-gradient(to left, #4458dc, #854fee);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.site-header {
+    padding-top: 30px;
 }
 
 .site-header .flexbox {
@@ -35,4 +70,48 @@ body {
     padding: 15px;
     text-transform: uppercase;
     color: #000;
+    text-decoration: none;
+    font-size: 14px; 
+    font-weight: 500;
+}
+
+/* Banner */
+.banner {
+    background: url("../images/home-banner.png") no-repeat;
+    background-size: 100%;
+    background-position-y: -100px;
+    padding-top: 100px;
+}
+.banner-left {
+    width: 60%;
+}
+.banner-left h1,
+.banner-left h5,
+.banner-left h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.banner-right {
+    width: 40%;
+}
+
+.banner-right img {
+    max-width: 100%;
+}
+
+/* about */
+.about-left {
+    width: 50%;
+}
+.about-left img {
+    max-width: 80%;
+}
+
+.about-right {
+    width: 50%;
+}
+.about-right h2 {
+    text-transform: uppercase;
 }
